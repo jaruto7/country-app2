@@ -2,7 +2,7 @@ import { GET_COUNTRIES } from '../actions/actions-countries';
 import countriesData from '../data/countries.json';
 
 const initialState = {
-    countries: {}
+    countries: []
 };
 
 const countriesReducer = function(state = initialState, action) {
