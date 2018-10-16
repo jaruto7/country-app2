@@ -12,7 +12,6 @@ render(
     <Provider store={store}>
         {/* <div>
             <Router history={hashHistory} routes={routes}/>
-            <h1>Inicjalizacja projektu</h1>
             <DevTools />
         </div> */}
     </Provider>,
