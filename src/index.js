@@ -10,10 +10,10 @@ import DevTools from './DevTools';
 
 render(
     <Provider store={store}>
-        {/* <div>
+        {<div>
             <Router history={hashHistory} routes={routes}/>
             <DevTools />
-        </div> */}
+        </div>}
     </Provider>,
     document.getElementById('root')
 );
