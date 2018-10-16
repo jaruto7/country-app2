@@ -5,13 +5,13 @@ import { Provider } from 'react-redux';
 import store from './store';
 import routes from './routes';
 import './country.css';
-// import DevTools from './DevTools';
+import DevTools from './DevTools';
 
 
 render(
     <Provider store={store}>
-        <Router history={hashHistory} routes={routes}/>
         {/* <div>
+            <Router history={hashHistory} routes={routes}/>
             <h1>Inicjalizacja projektu</h1>
             <DevTools />
         </div> */}
